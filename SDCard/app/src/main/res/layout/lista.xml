@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="/"
+        android:id="@+id/tvAtual"
+        android:textColor="@color/abc_primary_text_material_dark"
+        android:background="@color/background_material_dark"/>
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:id="@android:id/list"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Back"
+        android:id="@+id/btVoltar"
+        android:enabled="false"
+        android:textColor="@color/abc_primary_text_material_dark"
+        android:background="@color/background_material_dark"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Choose this folder"
+        android:enabled="false"
+        android:id="@+id/btEscolhe"
+        android:textColor="@color/abc_primary_text_material_dark"
+        android:background="@color/background_material_dark"/>
+    </LinearLayout>
